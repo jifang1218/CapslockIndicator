@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0746FEB1B50C043008A2EE5 /* EMKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746FEA1B50C043008A2EE5 /* EMKeyboard.m */; };
+		C0782A561B4FAB7F002E2B46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A551B4FAB7F002E2B46 /* AppDelegate.m */; };
+		C0782A581B4FAB7F002E2B46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A571B4FAB7F002E2B46 /* main.m */; };
+		C0782A5A1B4FAB7F002E2B46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0782A591B4FAB7F002E2B46 /* Images.xcassets */; };
+		C0782A5D1B4FAB7F002E2B46 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0782A5B1B4FAB7F002E2B46 /* MainMenu.xib */; };
+		C0782A911B4FABF3002E2B46 /* DDHidAppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A741B4FABF3002E2B46 /* DDHidAppleRemote.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A921B4FABF3002E2B46 /* DDHidDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A761B4FABF3002E2B46 /* DDHidDevice.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A931B4FABF3002E2B46 /* DDHidElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A781B4FABF3002E2B46 /* DDHidElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A941B4FABF3002E2B46 /* DDHidEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A7A1B4FABF3002E2B46 /* DDHidEvent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A951B4FABF3002E2B46 /* DDHidJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A7C1B4FABF3002E2B46 /* DDHidJoystick.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A961B4FABF3002E2B46 /* DDHidKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A7E1B4FABF3002E2B46 /* DDHidKeyboard.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A971B4FABF3002E2B46 /* DDHidKeyboardBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A801B4FABF3002E2B46 /* DDHidKeyboardBarcodeScanner.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A981B4FABF3002E2B46 /* DDHidMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A831B4FABF3002E2B46 /* DDHidMouse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A991B4FABF3002E2B46 /* DDHidQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A851B4FABF3002E2B46 /* DDHidQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A9A1B4FABF3002E2B46 /* DDHidStandardUsages.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0782A861B4FABF3002E2B46 /* DDHidStandardUsages.plist */; };
+		C0782A9B1B4FABF3002E2B46 /* DDHidUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A881B4FABF3002E2B46 /* DDHidUsage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A9C1B4FABF3002E2B46 /* DDHidUsageTables.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A8A1B4FABF3002E2B46 /* DDHidUsageTables.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A9D1B4FABF3002E2B46 /* NSDictionary+DDHidExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A8C1B4FABF3002E2B46 /* NSDictionary+DDHidExtras.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782A9E1B4FABF3002E2B46 /* NSXReturnThrowError.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782A901B4FABF3002E2B46 /* NSXReturnThrowError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C0782AA11B4FACCE002E2B46 /* EMIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782AA01B4FACCE002E2B46 /* EMIndicator.m */; };
+		C0782AA51B4FBB74002E2B46 /* EMIndicatorUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C0782AA41B4FBB74002E2B46 /* EMIndicatorUI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0746FE91B50C043008A2EE5 /* EMKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeyboard.h; sourceTree = "<group>"; };
+		C0746FEA1B50C043008A2EE5 /* EMKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeyboard.m; sourceTree = "<group>"; };
+		C0782A4F1B4FAB7F002E2B46 /* CapslockIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapslockIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0782A531B4FAB7F002E2B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0782A541B4FAB7F002E2B46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0782A551B4FAB7F002E2B46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0782A571B4FAB7F002E2B46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0782A591B4FAB7F002E2B46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0782A5C1B4FAB7F002E2B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C0782A731B4FABF3002E2B46 /* DDHidAppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidAppleRemote.h; sourceTree = "<group>"; };
+		C0782A741B4FABF3002E2B46 /* DDHidAppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidAppleRemote.m; sourceTree = "<group>"; };
+		C0782A751B4FABF3002E2B46 /* DDHidDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidDevice.h; sourceTree = "<group>"; };
+		C0782A761B4FABF3002E2B46 /* DDHidDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidDevice.m; sourceTree = "<group>"; };
+		C0782A771B4FABF3002E2B46 /* DDHidElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidElement.h; sourceTree = "<group>"; };
+		C0782A781B4FABF3002E2B46 /* DDHidElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidElement.m; sourceTree = "<group>"; };
+		C0782A791B4FABF3002E2B46 /* DDHidEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidEvent.h; sourceTree = "<group>"; };
+		C0782A7A1B4FABF3002E2B46 /* DDHidEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidEvent.m; sourceTree = "<group>"; };
+		C0782A7B1B4FABF3002E2B46 /* DDHidJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidJoystick.h; sourceTree = "<group>"; };
+		C0782A7C1B4FABF3002E2B46 /* DDHidJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidJoystick.m; sourceTree = "<group>"; };
+		C0782A7D1B4FABF3002E2B46 /* DDHidKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboard.h; sourceTree = "<group>"; };
+		C0782A7E1B4FABF3002E2B46 /* DDHidKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidKeyboard.m; sourceTree = "<group>"; };
+		C0782A7F1B4FABF3002E2B46 /* DDHidKeyboardBarcodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidKeyboardBarcodeScanner.h; sourceTree = "<group>"; };
+		C0782A801B4FABF3002E2B46 /* DDHidKeyboardBarcodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidKeyboardBarcodeScanner.m; sourceTree = "<group>"; };
+		C0782A811B4FABF3002E2B46 /* DDHidLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidLib.h; sourceTree = "<group>"; };
+		C0782A821B4FABF3002E2B46 /* DDHidMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidMouse.h; sourceTree = "<group>"; };
+		C0782A831B4FABF3002E2B46 /* DDHidMouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidMouse.m; sourceTree = "<group>"; };
+		C0782A841B4FABF3002E2B46 /* DDHidQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidQueue.h; sourceTree = "<group>"; };
+		C0782A851B4FABF3002E2B46 /* DDHidQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidQueue.m; sourceTree = "<group>"; };
+		C0782A861B4FABF3002E2B46 /* DDHidStandardUsages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DDHidStandardUsages.plist; sourceTree = "<group>"; };
+		C0782A871B4FABF3002E2B46 /* DDHidUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsage.h; sourceTree = "<group>"; };
+		C0782A881B4FABF3002E2B46 /* DDHidUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidUsage.m; sourceTree = "<group>"; };
+		C0782A891B4FABF3002E2B46 /* DDHidUsageTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsageTables.h; sourceTree = "<group>"; };
+		C0782A8A1B4FABF3002E2B46 /* DDHidUsageTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidUsageTables.m; sourceTree = "<group>"; };
+		C0782A8B1B4FABF3002E2B46 /* NSDictionary+DDHidExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DDHidExtras.h"; sourceTree = "<group>"; };
+		C0782A8C1B4FABF3002E2B46 /* NSDictionary+DDHidExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DDHidExtras.m"; sourceTree = "<group>"; };
+		C0782A8F1B4FABF3002E2B46 /* NSXReturnThrowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSXReturnThrowError.h; sourceTree = "<group>"; };
+		C0782A901B4FABF3002E2B46 /* NSXReturnThrowError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSXReturnThrowError.m; sourceTree = "<group>"; };
+		C0782A9F1B4FACCE002E2B46 /* EMIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMIndicator.h; sourceTree = "<group>"; };
+		C0782AA01B4FACCE002E2B46 /* EMIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMIndicator.m; sourceTree = "<group>"; };
+		C0782AA21B4FAF54002E2B46 /* EMIndicatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMIndicatorDelegate.h; sourceTree = "<group>"; };
+		C0782AA31B4FBB74002E2B46 /* EMIndicatorUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMIndicatorUI.h; sourceTree = "<group>"; };
+		C0782AA41B4FBB74002E2B46 /* EMIndicatorUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMIndicatorUI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0782A4C1B4FAB7F002E2B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0782A461B4FAB7F002E2B46 = {
+			isa = PBXGroup;
+			children = (
+				C0782A511B4FAB7F002E2B46 /* CapslockIndicator */,
+				C0782A501B4FAB7F002E2B46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0782A501B4FAB7F002E2B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0782A4F1B4FAB7F002E2B46 /* CapslockIndicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0782A511B4FAB7F002E2B46 /* CapslockIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				C0782A721B4FABF3002E2B46 /* lib */,
+				C0782A541B4FAB7F002E2B46 /* AppDelegate.h */,
+				C0782A551B4FAB7F002E2B46 /* AppDelegate.m */,
+				C0782A591B4FAB7F002E2B46 /* Images.xcassets */,
+				C0782A5B1B4FAB7F002E2B46 /* MainMenu.xib */,
+				C0782A521B4FAB7F002E2B46 /* Supporting Files */,
+				C0782A9F1B4FACCE002E2B46 /* EMIndicator.h */,
+				C0782AA01B4FACCE002E2B46 /* EMIndicator.m */,
+				C0782AA21B4FAF54002E2B46 /* EMIndicatorDelegate.h */,
+				C0782AA31B4FBB74002E2B46 /* EMIndicatorUI.h */,
+				C0782AA41B4FBB74002E2B46 /* EMIndicatorUI.m */,
+				C0746FE91B50C043008A2EE5 /* EMKeyboard.h */,
+				C0746FEA1B50C043008A2EE5 /* EMKeyboard.m */,
+			);
+			path = CapslockIndicator;
+			sourceTree = "<group>";
+		};
+		C0782A521B4FAB7F002E2B46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0782A531B4FAB7F002E2B46 /* Info.plist */,
+				C0782A571B4FAB7F002E2B46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0782A721B4FABF3002E2B46 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C0782A731B4FABF3002E2B46 /* DDHidAppleRemote.h */,
+				C0782A741B4FABF3002E2B46 /* DDHidAppleRemote.m */,
+				C0782A751B4FABF3002E2B46 /* DDHidDevice.h */,
+				C0782A761B4FABF3002E2B46 /* DDHidDevice.m */,
+				C0782A771B4FABF3002E2B46 /* DDHidElement.h */,
+				C0782A781B4FABF3002E2B46 /* DDHidElement.m */,
+				C0782A791B4FABF3002E2B46 /* DDHidEvent.h */,
+				C0782A7A1B4FABF3002E2B46 /* DDHidEvent.m */,
+				C0782A7B1B4FABF3002E2B46 /* DDHidJoystick.h */,
+				C0782A7C1B4FABF3002E2B46 /* DDHidJoystick.m */,
+				C0782A7D1B4FABF3002E2B46 /* DDHidKeyboard.h */,
+				C0782A7E1B4FABF3002E2B46 /* DDHidKeyboard.m */,
+				C0782A7F1B4FABF3002E2B46 /* DDHidKeyboardBarcodeScanner.h */,
+				C0782A801B4FABF3002E2B46 /* DDHidKeyboardBarcodeScanner.m */,
+				C0782A811B4FABF3002E2B46 /* DDHidLib.h */,
+				C0782A821B4FABF3002E2B46 /* DDHidMouse.h */,
+				C0782A831B4FABF3002E2B46 /* DDHidMouse.m */,
+				C0782A841B4FABF3002E2B46 /* DDHidQueue.h */,
+				C0782A851B4FABF3002E2B46 /* DDHidQueue.m */,
+				C0782A861B4FABF3002E2B46 /* DDHidStandardUsages.plist */,
+				C0782A871B4FABF3002E2B46 /* DDHidUsage.h */,
+				C0782A881B4FABF3002E2B46 /* DDHidUsage.m */,
+				C0782A891B4FABF3002E2B46 /* DDHidUsageTables.h */,
+				C0782A8A1B4FABF3002E2B46 /* DDHidUsageTables.m */,
+				C0782A8B1B4FABF3002E2B46 /* NSDictionary+DDHidExtras.h */,
+				C0782A8C1B4FABF3002E2B46 /* NSDictionary+DDHidExtras.m */,
+				C0782A8D1B4FABF3002E2B46 /* vendor */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C0782A8D1B4FABF3002E2B46 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C0782A8E1B4FABF3002E2B46 /* NSXReturnThrowError */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		C0782A8E1B4FABF3002E2B46 /* NSXReturnThrowError */ = {
+			isa = PBXGroup;
+			children = (
+				C0782A8F1B4FABF3002E2B46 /* NSXReturnThrowError.h */,
+				C0782A901B4FABF3002E2B46 /* NSXReturnThrowError.m */,
+			);
+			path = NSXReturnThrowError;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0782A4E1B4FAB7F002E2B46 /* CapslockIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0782A6C1B4FAB80002E2B46 /* Build configuration list for PBXNativeTarget "CapslockIndicator" */;
+			buildPhases = (
+				C0782A4B1B4FAB7F002E2B46 /* Sources */,
+				C0782A4C1B4FAB7F002E2B46 /* Frameworks */,
+				C0782A4D1B4FAB7F002E2B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapslockIndicator;
+			productName = CapslockIndicator;
+			productReference = C0782A4F1B4FAB7F002E2B46 /* CapslockIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0782A471B4FAB7F002E2B46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "EaseMob Inc.";
+				TargetAttributes = {
+					C0782A4E1B4FAB7F002E2B46 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C0782A4A1B4FAB7F002E2B46 /* Build configuration list for PBXProject "CapslockIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0782A461B4FAB7F002E2B46;
+			productRefGroup = C0782A501B4FAB7F002E2B46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0782A4E1B4FAB7F002E2B46 /* CapslockIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0782A4D1B4FAB7F002E2B46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0782A9A1B4FABF3002E2B46 /* DDHidStandardUsages.plist in Resources */,
+				C0782A5A1B4FAB7F002E2B46 /* Images.xcassets in Resources */,
+				C0782A5D1B4FAB7F002E2B46 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0782A4B1B4FAB7F002E2B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0782A961B4FABF3002E2B46 /* DDHidKeyboard.m in Sources */,
+				C0782A941B4FABF3002E2B46 /* DDHidEvent.m in Sources */,
+				C0746FEB1B50C043008A2EE5 /* EMKeyboard.m in Sources */,
+				C0782A971B4FABF3002E2B46 /* DDHidKeyboardBarcodeScanner.m in Sources */,
+				C0782A581B4FAB7F002E2B46 /* main.m in Sources */,
+				C0782A9C1B4FABF3002E2B46 /* DDHidUsageTables.m in Sources */,
+				C0782A931B4FABF3002E2B46 /* DDHidElement.m in Sources */,
+				C0782A9B1B4FABF3002E2B46 /* DDHidUsage.m in Sources */,
+				C0782AA11B4FACCE002E2B46 /* EMIndicator.m in Sources */,
+				C0782A991B4FABF3002E2B46 /* DDHidQueue.m in Sources */,
+				C0782A9E1B4FABF3002E2B46 /* NSXReturnThrowError.m in Sources */,
+				C0782A951B4FABF3002E2B46 /* DDHidJoystick.m in Sources */,
+				C0782A921B4FABF3002E2B46 /* DDHidDevice.m in Sources */,
+				C0782A911B4FABF3002E2B46 /* DDHidAppleRemote.m in Sources */,
+				C0782A9D1B4FABF3002E2B46 /* NSDictionary+DDHidExtras.m in Sources */,
+				C0782A561B4FAB7F002E2B46 /* AppDelegate.m in Sources */,
+				C0782A981B4FABF3002E2B46 /* DDHidMouse.m in Sources */,
+				C0782AA51B4FBB74002E2B46 /* EMIndicatorUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0782A5B1B4FAB7F002E2B46 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0782A5C1B4FAB7F002E2B46 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0782A6A1B4FAB80002E2B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C0782A6B1B4FAB80002E2B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0782A6D1B4FAB80002E2B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CapslockIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0782A6E1B4FAB80002E2B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CapslockIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0782A4A1B4FAB7F002E2B46 /* Build configuration list for PBXProject "CapslockIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0782A6A1B4FAB80002E2B46 /* Debug */,
+				C0782A6B1B4FAB80002E2B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0782A6C1B4FAB80002E2B46 /* Build configuration list for PBXNativeTarget "CapslockIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0782A6D1B4FAB80002E2B46 /* Debug */,
+				C0782A6E1B4FAB80002E2B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0782A471B4FAB7F002E2B46 /* Project object */;
+}
